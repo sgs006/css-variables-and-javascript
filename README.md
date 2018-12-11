@@ -13,7 +13,7 @@ New things I learned:
 
 2)How `:root {}` can be used to create global CSS variables. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
 
-3)I learned that element.dataset will retun me a NodeList Object that I can manipulate to grab certain attributes set by `data-*`. In this project I was able to grab `data-sizing` from the HTML. `const suffix = this.dataset.sizing || '';`
+3)I learned that element.dataset will retun me a NodeList Object that I can manipulate to grab certain attributes set by `data-*`. In this project I was able to grab `data-sizing` from the HTML. ex: `const suffix = this.dataset.sizing || '';`
 	
 ## Technologies
 Project is created with:
